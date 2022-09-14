@@ -22,6 +22,17 @@ print_r( $a, $b);
 //Resultado
 //WARNING print_r() expects at most 2 parameters, 3 given on line number 5
 ?>
+<?php
+<?php
+$a = 'PHP5';
+$z[] = &$a;
+$b = '5a version de PHP';
+$c = $b*10;
+$a .= $b;
+$b *= $c;
+$z[0] = 'MySQL';
+var_dump( $a, $z, $b, $c );
+?>
 
 
 
