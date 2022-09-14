@@ -33,7 +33,12 @@ $b *= $c;
 $z[0] = 'MySQL';
 var_dump( $a, $z, $b, $c );
 ?>
-
+<?php
+$a = '7 personas';
+$b = (integer) $a;
+$a = '9E3';
+$c = (double) $a;
+?>
 
 
 
