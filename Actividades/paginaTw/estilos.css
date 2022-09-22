@@ -1,0 +1,19 @@
+.card-border{
+    border: solid 5px rgb(0, 232, 248);
+    border-radius: 20px;
+    overflow: hidden;
+    background: linear-gradient(45deg, #52c4df, #ad55c1);
+    
+}
+
+.card-border img{
+    max-height: 80px;
+    min-height: 350px;
+}
+
+#salones{
+    background: white;
+    background: url(img/bg/Backgrond.jpg);
+    background-size: 75%;
+    margin-top: 10px;
+}
